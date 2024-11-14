@@ -372,6 +372,7 @@ config.tokenAuthUrl = '{{ .Env.TOKEN_AUTH_URL }}';
 // Deployment information.
 //
 
+
 config.deploymentInfo = {};
 
 {{ if .Env.DEPLOYMENTINFO_ENVIRONMENT -}}
